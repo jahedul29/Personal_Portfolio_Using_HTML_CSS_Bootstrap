@@ -1,0 +1,26 @@
+/* Import font.css */
+
+@import url('./font.css');
+
+/* Import variables.css */
+@import url('../partial/_variables.css');
+
+
+/* Strat Navigation  */
+ .navbar{
+    padding: 2rem 20rem;
+}
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+    color: var(--title-color);
+}
+.nav-link {
+    font-family: "Roboto", cursive;
+    display: block;
+    padding: 1.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color;
+}
+
+/* End Navigation */
