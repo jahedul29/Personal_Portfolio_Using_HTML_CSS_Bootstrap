@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio</title>
+    <title>Md. Jahedul Hoque</title>
     
 
     <!-- bootstrap css -->
@@ -180,14 +180,15 @@
     </div>
 
     <div class="button-group">
-      <button href="" type="button" class="active text-uppercase">All</button>
-      <button type="button">DotNet</button>
-      <button type="button" >WEBDEV</button>
-      <button type="button">Portfolio</button>
+      <button href="" type="button" class="active" id="btnAll">All</button>
+      <button type="button" data-filter=".dotnet" >DotNet</button>
+      <button type="button"  >WEBDEV</button>
+      <button type="button" data-filter=".portfolio">Portfolio</button>
+      <button type="button" data-filter=".others">Others</button>
     </div>
-    
+  <hr>
     <div class="row grid">
-      <div class="col-lg-4 col-md-6 col-sm-12 element-item dotnet">
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
         <div class="our-project">
           <div class="img">
             <img src="./img/ForyouProject.png" alt="Foryou" width="100%">
@@ -199,7 +200,7 @@
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-6 col-sm-12 element-item portfolio">
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item portfolio">
         <div class="our-project">
           <div class="img">
             <img src="./img/portfolio.jpg" alt="portfolio" width="100%">
@@ -211,7 +212,7 @@
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-6 col-sm-12 element-item others">
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
         <div class="our-project">
           <div class="img">
             <img src="./img/others.jpg" alt="others" width="100%">
@@ -223,6 +224,53 @@
         </div>
       </div>
       
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
+        <div class="our-project">
+          <div class="img">
+            <img src="./img/student.png" alt="dotnet" width="100%">
+          </div>
+          <div class="title py-4">
+            <h3 class="text-uppercase">Student Registration</h3>
+            <span class="text-secondary">DotNet core 3.1 used</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+        <div class="our-project">
+          <div class="img">
+            <img src="./img/blackjack.jpg" alt="blackjack" width="100%">
+          </div>
+          <div class="title py-4">
+            <h3 class="text-uppercase">Simple BlackJack Game</h3>
+            <span class="text-secondary">Python is used to accomplish this</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+        <div class="our-project">
+          <div class="img">
+            <img src="./img/bank.jpg" alt="bank" width="100%">
+          </div>
+          <div class="title py-4">
+            <h3 class="text-uppercase">Simple Bank Management</h3>
+            <span class="text-secondary">C++ is used here</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+        <div class="our-project">
+          <div class="img">
+            <img src="./img/machine.jpg" alt="machine" width="100%">
+          </div>
+          <div class="title py-4">
+            <h3 class="text-uppercase">My Machine Learning works</h3>
+            <span class="text-secondary">Python is used here</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   

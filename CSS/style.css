@@ -155,6 +155,14 @@ li.nav-item a:hover{
 
 .site-main .project-area .grid .our-project >.title h3{
     font: normal 700 25px/40px var(--roboto);
-    
+}
+
+.site-main .project-area .grid .element-item{
+    margin: auto;
+    transition: box-shadow .5s ease;
+}
+
+.site-main .project-area .grid .element-item:hover{
+    box-shadow: var(--box-shadow);
 }
 /* End Project area */
