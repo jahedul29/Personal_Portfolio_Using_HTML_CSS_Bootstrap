@@ -98,7 +98,7 @@
           <span>introduce</span>
           <span>Myself</span>
         </h2>
-        <div class="paragrph w-75">
+        <div class="paragraph w-85">
           <p class="para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Architecto maxime soluta unde totam aliquid? Maiores rem
@@ -142,7 +142,7 @@
           </div>
         
           <div class="card-body text-center pt-0">
-            <h5 class="card-title text-uppercasen font-roboto">Dot Net Development</h5>
+            <h5 class="card-title text-uppercase font-roboto">DotNet Development</h5>
             <p class="card-text text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ab.
             </p>
@@ -154,11 +154,11 @@
       <div class="text-center col-lg-3 col-md-6 col-sm-12">
         <div class="services">
           <div class="services-img text-center py-4">
-            <img src="./img/web.jpg" alt="dotnet">
+            <img src="./img/web.jpg" alt="web">
           </div>
         
           <div class="card-body text-center pt-0">
-            <h5 class="card-title text-uppercasen font-roboto">Web Development</h5>
+            <h5 class="card-title text-uppercase">Web Development</h5>
             <p class="card-text text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, ab.
             </p>
@@ -176,41 +176,57 @@
 <section class="project-area">
   <div class="container">
     <div class="project-title pb-5">
-     <h1 class="text-uppercase title-h1 text-center">Recently Done peoject</h1>
+     <h1 class="text-uppercase title-h1">Recently Done project</h1>
     </div>
 
-    <div class="button-group text-center">
+    <div class="button-group">
       <button href="" type="button" class="active text-uppercase">All</button>
-      <button type="button" class="text-uppercase">DotNet</button>
-      <button type="button" class="text-uppercase">WEBDEV</button>
-      <button type="button" class="text-uppercase">Portfolio</button>
+      <button type="button">DotNet</button>
+      <button type="button" >WEBDEV</button>
+      <button type="button">Portfolio</button>
     </div>
+    
     <div class="row grid">
-      <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-1 element-item dotnet">
-        <div class="our-projecr">
+      <div class="col-lg-4 col-md-6 col-sm-12 element-item dotnet">
+        <div class="our-project">
           <div class="img">
-            <img src="./img/ForyouProject.png" alt="Foryou">
+            <img src="./img/ForyouProject.png" alt="Foryou" width="100%">
           </div>
           <div class="title py-4">
-            <h3 class="text-uppercase"><a style="color: black;outline: none;" href="www.google.com">ForYou Restaurant</a></h3>
+            <h3 class="text-uppercase">ForYou Restaurant</h3>
             <span class="text-secondary">This is created using ASP.NET Core MVC</span>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
-        <div class="our-projecr">
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 element-item portfolio">
+        <div class="our-project">
           <div class="img">
-            <img src="./img/ForyouProject.png" alt="Foryou">
+            <img src="./img/portfolio.jpg" alt="portfolio" width="100%">
           </div>
           <div class="title py-4">
-            <h3 class="text-uppercase"><a style="color: black;outline: none;" href="https://www.google.com">ForYou Restaurant</a></h3>
-            <span class="text-secondary">This is created using ASP.NET Core MVC</span>
+            <h3 class="text-uppercase">My Portfolio</h3>
+            <span class="text-secondary">This is created using HTML,CSS,JS</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 element-item others">
+        <div class="our-project">
+          <div class="img">
+            <img src="./img/others.jpg" alt="others" width="100%">
+          </div>
+          <div class="title py-4">
+            <h3 class="text-uppercase">Other Works</h3>
+            <span class="text-secondary">Here are some project in github repository</span>
           </div>
         </div>
       </div>
       
     </div>
   </div>
+  
+  
   
 </section>
 <!-- ******************************End Project Area*********************************** -->
@@ -226,5 +242,11 @@
 
     <!-- Bootstrap js file -->
     <script src="./js/bootstrap.min.js"></script>
+    
+    <!-- Isotope js file -->
+    <script src="./vendor/isotope/isotope.pkgd.min.js"></script>
+    
+    <!-- Custom js file -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
