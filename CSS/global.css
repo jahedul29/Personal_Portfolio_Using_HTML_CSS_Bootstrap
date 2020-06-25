@@ -1,0 +1,61 @@
+
+.title-text{
+    font: normal bold 50px/72px var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Start Banner Buttons */
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal bold 16px/30px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primery-button{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.primery-button:hover{
+    background: whitesmoke;
+    color: black;
+    background-clip: padding-box;
+}
+
+.button.primery-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;right: -2px;
+    background: var(--gradient-color);
+    content:'';
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+/* End Banner Buttons */
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/20px var(--roboto);
+    padding: 5px;
+}
