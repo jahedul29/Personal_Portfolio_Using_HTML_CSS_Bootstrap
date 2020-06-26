@@ -15,4 +15,26 @@ $(document).ready(function(){
         return false;
     })
     
+    //Fixed nav bar
+    var nav_header_area_height = $('.header_aria').height() + 50;
+    
+    function navbarFixed(){
+        
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                
+                if (scroll >= nav_header_area_height) {
+                    // alert(scroll);
+                    // alert(nav_header_area_height);
+                    $('.main-menu').addClass('navbar_fixed');
+                } else {
+                    $('.main-menu').removeClass('navbar_fixed');
+                    
+                }
+            })
+        
+    }
+    
+    navbarFixed();
+    
 });

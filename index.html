@@ -14,6 +14,12 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="./CSS/style.css">
+    
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="/img/j.jpg" />
 </head>
 <body>
 <!-- ******************************Start Header*********************************** -->
@@ -23,24 +29,24 @@
 <header class="header_aria">
     <div class="main-menu">
         <nav class="navbar navbar-expand-lg" >
-            <a class="navbar-brand" href="#">Jahed</a>
+            <a class="navbar-brand text-success" href="#">Jahed</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"><i class="fas fa-list"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mr-auto"></div>
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#site-banner">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about-area">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#services-area">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#project-area">Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Pages</a>
@@ -49,7 +55,7 @@
                   <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#footer-area">Contact</a>
                 </li>
                 
               </ul>
@@ -63,15 +69,18 @@
 <main class="site-main">
 
 <!-- ******************************Sart Banner Area*********************************** -->
-<section class="site-banner">
+
+<a id="site-banner"></a>
+
+<section class="site-banner" >
   <div class="container">
-    <div class="row">
+    <div class="row" >
       <div class="col-lg-6 col-md-12 site-title">
         <h3 class="title-text">Hi!</h3>
         <h1 class="text-title text-uppercase">I am Jahed</h1>
         <h4 class="title-text title-uppercase">DotNet Developer & Web developer</h4>
-        <button type="button" class="btn button primery-button mr-4 text-uppercase">Contact Me</button>
-        <button type="button" class="btn button secondary-button text-uppercase">Get CV</button>
+        <a href="mailto:jahedulh1@gmail.com" type="button" class="btn button primery-button mr-4 text-uppercase">Contact Me</a>
+        <a href="./files/CV_jahed(02.01.2020).pdf" download="Jahedul_Hoque_CV" type="button" class="btn button secondary-button text-uppercase">Get CV</a>
       </div>
       <div class="col-lg-6 col-md-12 banner-image">
         <img src="./img//banner.JPG" alt="banner_img" class="img-fluid" height="400px">
@@ -84,7 +93,10 @@
 <!-- ******************************End Banner Area*********************************** -->
 
 <!-- ******************************Start Aboout Area*********************************** -->
-<section class="about-area">
+<a id="about-area"></a>
+
+
+<section class="about-area" >
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12">
@@ -111,7 +123,7 @@
           </p>
           
         </div>
-        <button type="button" class="btn button primery-button text-uppercase">Print CV</button>
+        <a href="./files/CV_jahed(02.01.2020).pdf" download="Jahedul_Hoque_CV" type="button" class="btn button primery-button text-uppercase">Print CV</a>
       </div>
     </div>
   </div>
@@ -119,6 +131,8 @@
 
 <!-- ******************************End About Area*********************************** -->
 <!-- ******************************Start Services Area*********************************** -->
+<a id="services-area"></a>
+
 <section class="services-area">
   <div class="container">
     <div class="row">
@@ -135,7 +149,7 @@
   </div>
   <div class="container services-list">
     <div class="row">
-      <div class="text-center col-lg-3 col-md-6 col-sm-12 offset-lg-3">
+      <div class="text-center col-lg-3 col-md-6 col-sm-12 offset-lg-3 services-container">
         <div class="services">
           <div class="services-img text-center py-4">
             <img src="./img/dotnet.png" alt="dotnet">
@@ -151,7 +165,7 @@
       </div>
     
     
-      <div class="text-center col-lg-3 col-md-6 col-sm-12">
+      <div class="text-center col-lg-3 col-md-6 col-sm-12 services-container">
         <div class="services">
           <div class="services-img text-center py-4">
             <img src="./img/web.jpg" alt="web">
@@ -172,6 +186,7 @@
 
 <!-- ******************************End Services Area*********************************** -->
 <!-- ******************************Start Project Area*********************************** -->
+<a id="project-area"></a>
 
 <section class="project-area">
   <div class="container">
@@ -188,17 +203,19 @@
     </div>
   <hr>
     <div class="row grid">
+    
       <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
         <div class="our-project">
           <div class="img">
             <img src="./img/ForyouProject.png" alt="Foryou" width="100%">
           </div>
           <div class="title py-4">
-            <h3 class="text-uppercase">ForYou Restaurant</h3>
+            <h3 class="text-uppercase"><a style="color: black; text-decoration: none;" href="http://jahedulhoque-001-site1.etempurl.com/">ForYou Restaurant</a></h3>
             <span class="text-secondary">This is created using ASP.NET Core MVC</span>
           </div>
         </div>
       </div>
+  
       
       <div class="col-lg-3 col-md-6 col-sm-12 element-item portfolio">
         <div class="our-project">
@@ -282,6 +299,25 @@
 </main>
 
 <!-- ******************************End Main Area*********************************** -->
+<a id="footer-area"></a>
+
+<footer class="footer-area">
+  <hr style="color: blue;">
+
+  <div div class="container text-center">
+    <h5 class="footer-title">Md. Jahedul Hoque</h5>
+      <div class="site-logo text-center">
+        <h6>Follow Me</h6>
+        <span><a style="" href="https://www.facebook.com/jahedul.hoque.79"><i class="fab fa-facebook"></i></a></span>
+        <span><a href="https://www.linedin.com"><i class="fab fa-linkedin"></i></a></span>
+        <span><a href="https://www.github.com/jahedul29"><i class="fab fa-github"></i></a></span>
+        <span><a href="https://stackoverflow.com/users/11941566/jahed"><i class="fab fa-stack-overflow"></i></a></span>
+      </div>
+      <div class="copyright text-center">
+        <p class="para">Copyright reserved by <span style="color: #3b074b;">Md. Jahedul Hoque</span></p>
+      </div>
+  </div>
+</footer>
 
 
 

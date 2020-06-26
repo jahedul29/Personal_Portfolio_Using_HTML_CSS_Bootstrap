@@ -10,12 +10,13 @@
 
 
 /* Start Navigation  */
+
 .site-main{
     padding: 0 5rem;
 }
 
  .navbar{
-    padding: 2rem 20rem;
+    padding: .5rem 20rem;
 }
 .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -46,8 +47,11 @@ li.nav-item a:hover{
 /* End Navigation */
 
 /* Start Banner */
+.site-banner{
+    padding: 1rem 2rem;
+}
+
 .site-title h3{
-    padding-top: 30%;
     font-weight: 500;
 }
 .site-title h3::after{
@@ -69,14 +73,13 @@ li.nav-item a:hover{
 }
 
 .banner-image >img{
-    padding-top: 5rem;
     width:100%;
 }
 /* End Banner */
 
 /* Start About area */
 .site-main .about-area{
-    padding: 8rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .site-main .about-area .about-title{
@@ -97,7 +100,7 @@ li.nav-item a:hover{
 
 /* Start Services area */
 .site-main .services-area{
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .site-main .services-area .services-title{
@@ -124,7 +127,7 @@ li.nav-item a:hover{
 
 /* Start Project area */
 .site-main .project-area{
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .site-main .project-area .project-title{
@@ -138,10 +141,10 @@ li.nav-item a:hover{
 .site-main .project-area .button-group button{
     font: normal 500 20px/40px var(--roboto);
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border: none;
     background: transparent;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
     
 }
 
@@ -166,3 +169,32 @@ li.nav-item a:hover{
     box-shadow: var(--box-shadow);
 }
 /* End Project area */
+
+/* Start Footer Area */
+.footer-area{
+    padding: 5rem 2rem;
+    height: 350px;
+    background: url(../img/footer2.png) center bottom no-repeat;
+    background-size: 100% 73%;
+}
+
+.footer-area .footer-title{
+    padding-top: 1rem;
+    font: normal 800 25px/40px var(--roboto);
+    
+}
+
+.footer-area .site-logo h6{
+    font: normal 500 20px/40px var(--roboto);
+}
+
+.footer-area .site-logo span > a{
+    padding: 2rem 1.5rem;
+    font-size: 20px;
+    color: #1933c7;
+}
+
+.footer-area .site-logo span > a:hover{
+    color: var(--primary-color2);
+}
+/* End Footer Area */

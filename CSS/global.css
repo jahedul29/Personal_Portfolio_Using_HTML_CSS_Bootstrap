@@ -67,3 +67,20 @@ button:hover
     outline: 0px !important;
     box-shadow: none !important;
 }
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;right: 0;
+    background: #e8eee8;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
+
+a.project-link:-webkit-any-link{
+    color: none;
+    cursor: pointer;
+    text-decoration: none;
+}
