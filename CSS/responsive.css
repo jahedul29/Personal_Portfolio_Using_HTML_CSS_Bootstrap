@@ -129,4 +129,9 @@
         font: normal 700 20px/30px var(--roboto);
     }
     
+    .site-main .ability-area .ability-area-title{
+        padding: 0 0;
+        padding-bottom: 2rem;
+    }
+    
 }

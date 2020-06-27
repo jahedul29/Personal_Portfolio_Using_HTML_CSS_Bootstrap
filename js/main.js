@@ -38,3 +38,11 @@ $(document).ready(function(){
     navbarFixed();
     
 });
+
+function showAbility(){
+	$('.ability').each(function(){
+		$(this).find('.ability-bar').animate({
+			width:$(this).attr('data-percent')
+		},2000);
+	});
+}
