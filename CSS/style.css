@@ -1,13 +1,17 @@
 /* Import font.css */
 
-@import url('./font.css');
+@import url("./font.css");
 
 /* Import variables.css */
-@import url('../partial/_variables.css');
+@import url("../partial/_variables.css");
 
 /* Import global.css */
-@import url('./global.css');
+@import url("./global.css");
 
+body {
+    background: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
 
 /* Start Navigation  */
 
@@ -16,7 +20,7 @@
 }
 
 .navbar {
-    padding: .5rem 20rem;
+    padding: 0.5rem 20rem;
 }
 
 .navbar-brand {
@@ -50,6 +54,10 @@ li.nav-item a:hover {
 /* End Navigation */
 
 /* Start Banner */
+#name {
+    color: #d61212;
+}
+
 .site-banner {
     padding: 1rem 2rem;
 }
@@ -69,7 +77,38 @@ li.nav-item a:hover {
 }
 
 .site-title h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+    color: rgb(46, 65, 65);
+    overflow: hidden;
+    display: inline-block;
+    border-right: 4px solid rgb(189, 22, 22);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: rgb(206, 75, 15);
+    }
 }
 
 .site-title h4 {
@@ -120,9 +159,9 @@ li.nav-item a:hover {
     background-color: rgba(240, 250, 250, 0.978);
     width: 16rem;
     height: 80%;
-    transition: box-shadow .7s ease;
+    transition: box-shadow 0.7s ease;
     padding: 2rem 0;
-    margin: 3rem .5rem;
+    margin: 3rem 0.5rem;
 }
 
 .site-main>.services-area .services:hover {
@@ -188,14 +227,13 @@ li.nav-item a:hover {
     visibility: visible;
 }
 
-
 .site-main .project-area .grid .our-project>.title h3 {
     font: normal 700 25px/40px var(--roboto);
 }
 
 .site-main .project-area .grid .element-item {
     margin: auto;
-    transition: box-shadow .5s ease;
+    transition: box-shadow 0.5s ease;
 }
 
 .site-main .project-area .grid .element-item:hover {
@@ -258,7 +296,7 @@ li.nav-item a:hover {
     font-size: 11px;
     height: 30px;
     line-height: 35px;
-    color: #ffffff;
+    font-weight: 800;
     color: rgba(0, 0, 0, 0.4);
 }
 
@@ -280,7 +318,6 @@ li.nav-item a:hover {
 
 .footer-left .para {
     text-align: right;
-
 }
 
 .footer-left span {
@@ -298,6 +335,11 @@ li.nav-item a:hover {
     color: rgb(200, 221, 214);
     padding: 2% 10%;
     font-size: 40px;
+}
+
+.footer-logo span a {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-logo span:hover {
