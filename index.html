@@ -82,7 +82,7 @@
             <h4 class="title-text title-uppercase">DotNet Developer & Web developer</h4>
             <a href="mailto:jahedulh1@gmail.com" type="button"
               class="btn button primery-button mr-4 text-uppercase">Contact Me</a>
-            <a href="./files/CV_jahed(02.01.2020).pdf" download="Jahedul_Hoque_CV" type="button"
+            <a href="./files/CV_jahed(10.07.2020).pdf" download="Jahedul_Hoque_CV" type="button"
               class="btn button secondary-button text-uppercase">Get CV</a>
           </div>
           <div class="col-lg-6 col-md-12 banner-image">
@@ -196,77 +196,66 @@
         <div class="button-group">
           <button href="" type="button" class="active" id="btnAll">All</button>
           <button type="button" data-filter=".dotnet">DotNet</button>
-          <button type="button">WEBDEV</button>
+          <button type="button" data-filter=".webdev">WEBDEV</button>
           <button type="button" data-filter=".portfolio">Portfolio</button>
           <button type="button" data-filter=".others">Others</button>
         </div>
         <hr>
+
+
         <div class="row grid">
 
           <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
-            <div class="our-project">
+            <div class="our-project" data-toggle="modal" data-target="#foryouRestaurant">
               <div class="img">
-
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>Foryou</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-
-                        <ul>
-                          <li>Admin, Distributor, Chef, Customer login and their different functionality</li>
-                          <li>Shopping cart</li>
-                          <li>Stripe Payment</li>
-                          <li>Emailing System</li>
-                          <li>Social login</li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a href="https:/www.github.com">github link</a>
-                    </div>
-                  </div>
-                </div>
-                <!--End of floating information for my project --->
-
                 <img src="./img/ForyouProject.png" alt="Foryou" width="100%">
               </div>
               <div class="title py-4">
-                <h3 class="text-uppercase"><a target="_blank" style="color: black; text-decoration: none;"
-                    href="http://jahedulhoque-001-site1.etempurl.com/">ForYou Restaurant</a></h3>
+                <h3 class="text-uppercase">ForYou Restaurant</h3>
                 <span class="text-secondary">This is created using ASP.NET Core MVC</span>
               </div>
             </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="foryouRestaurant" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">ForYou Restaurant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      Features:
+                      <ul>
+                        <li>Admin, Distributor, Chef, Customer login and their different functionality</li>
+                        <li>Shopping cart</li>
+                        <li>Stripe Payment</li>
+                        <li>Emailing System</li>
+                        <li>Social login</li>
+                      </ul>
+                      and more....
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="http://foryourestaurant.tk/">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal applying -->
+
           </div>
 
 
-
           <div class="col-lg-3 col-md-6 col-sm-12 element-item portfolio">
-            <div class="our-project">
+            <div class="our-project" data-toggle="modal" data-target="#myPortfolio">
               <div class="img">
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>MyPortfolio</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-                        <ul>
-                          <li>This is what you are visiting.</li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a target="_blank" href="https:/www.github.com">github link</a>
-                    </div>
-                  </div>
-                </div>
-                <!--End of floating information for my project --->
-
                 <img src="./img/portfolio.jpg" alt="portfolio" width="100%">
               </div>
               <div class="title py-4">
@@ -274,66 +263,39 @@
                 <span class="text-secondary">HTML,CSS,JS</span>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
-            <div class="our-project">
-              <div class="img">
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>Oter Works</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-                        <ul>
-                          <li>Here are my other works.</li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a target="_blank" href="https:/www.github.com">github link</a>
-                    </div>
+            <!-- Modal Applying-->
+            <div class="modal fade" id="myPortfolio" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">My Portfolio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is what you are visiting.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="http://jahedulhoque.tk">Live
+                        Preview</a></p>
                   </div>
                 </div>
-                <!--End of floating information for my project --->
-
-                <img src="./img/others.jpg" alt="others" width="100%">
-              </div>
-              <div class="title py-4">
-                <h3 class="text-uppercase">Other Works</h3>
-                <span class="text-secondary">C++, C#, Python</span>
               </div>
             </div>
+
+            <!-- Modal applying -->
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
-            <div class="our-project">
-              <div class="img">
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>Student Registration</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-                        <ul>
-                          <li>Register student</li>
-                          <li>Cancel Registration</li>
-                          <li>Edit Information</li>
-                          <li>Read information</li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a target="_blank" href="https:/www.github.com">github link</a>
-                    </div>
-                  </div>
-                </div>
-                <!--End of floating information for my project --->
 
+
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item dotnet">
+            <div class="our-project" data-toggle="modal" data-target="#studentRegistration">
+              <div class="img">
                 <img src="./img/student.png" alt="dotnet" width="100%">
               </div>
               <div class="title py-4">
@@ -341,103 +303,565 @@
                 <span class="text-secondary">DotNet core 3.1, C#</span>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
-            <div class="our-project">
-              <div class="img">
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>BlackJack</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-                        This is just a simple console game. Just gaming steps are focused.
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a target="_blank" href="https:/www.github.com">github link</a>
-                    </div>
+            <!-- Modal Applying-->
+            <div class="modal fade" id="studentRegistration" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Student Registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      Features:
+                      <ul>
+                        <li>Register student</li>
+                        <li>Cancel Registration</li>
+                        <li>Edit Information</li>
+                        <li>Read information</li>
+                      </ul>
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;">Live
+                        Preview</a></p>
                   </div>
                 </div>
-                <!--End of floating information for my project --->
+              </div>
+            </div>
+            <!-- Modal applying -->
 
+          </div>
+
+          <!--========== Web_Portfolio website =============-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item portfolio">
+            <div class="our-project" data-toggle="modal" data-target="#webPortfolio">
+              <div class="img">
+                <img src="./img/web_portfolio.png" alt="dotnet" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Web Portfolio</h3>
+                <span class="text-secondary">HTML, CSS</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="webPortfolio" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Web PortFolio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple responsive portfolio website. Live preview available. For more see live preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/Web_Portfolio/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--========== Personal website =============-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item portfolio">
+            <div class="our-project" data-toggle="modal" data-target="#personalWebsite">
+              <div class="img">
+                <img src="./img/personal_website.png" alt="Personal Website" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Personal website</h3>
+                <span class="text-secondary">HTML, CSS</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="personalWebsite" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Web PortFolio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple portfolio website. <br> Live preview available. For more see live
+                      preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/Personal-Website/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--============== ForYou bank website ============-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#foryouBank">
+              <div class="img">
+                <img src="./img/foryouBank.png" alt="dotnet" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">ForYou Bank</h3>
+                <span class="text-secondary">JavaScript ,HTML, CSS, Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="foryouBank" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">ForYou Bank</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple bank website. JavaScript functionalities are focused mainly. <br>
+                      Features:
+                      <p class="para">
+                        <ul>
+                          <li>Login & Logout</li>
+                          <li>Deposit Fund</li>
+                          <li>Withdraw fund</li>
+                        </ul>
+                      </p>
+                      Live preview
+                      available. For more see live preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/ForYouBank/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--=============== Shopping Cart website =========-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#shoppingCart">
+              <div class="img">
+                <img src="./img/shopping_cart.png" alt="Shopping Cart" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Shopping Cart</h3>
+                <span class="text-secondary">JavaScript ,HTML, CSS, Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="shoppingCart" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Shopping Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple Shopping Cart. JavaScript functionalities are focused mainly. <br>
+                      Live preview
+                      available. For more see live preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/Shopping_Cart/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--=============== Hot Gadget Website ============-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#hotGadget">
+              <div class="img">
+                <img src="./img/hot_gadget.png" alt="Hot Gadget" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Hot Gadget</h3>
+                <span class="text-secondary">HTML, CSS, Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="hotGadget" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Hot Gadget</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple responsive E-Commerce website design.
+                      <br>
+                      Live preview
+                      available. For more see live preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/Hot_Gadget/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+
+          <!--=============== Panda Commerce Website =======-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#pandaCommerce">
+              <div class="img">
+                <img src="./img/panda_commerce.png" alt="Panda Commerce" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Panda Commerce</h3>
+                <span class="text-secondary">HTML, CSS, Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="pandaCommerce" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Panda Commerce</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple responsive E-Commerce website design.
+                      <br>
+                      Live preview
+                      available. For more see live preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/Panda_Commerce/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--=============== Blackjack Game project =============-->
+
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+            <div class="our-project" data-toggle="modal" data-target="#blackJack">
+              <div class="img">
                 <img src="./img/blackjack.jpg" alt="blackjack" width="100%">
               </div>
               <div class="title py-4">
-                <h3 class="text-uppercase">Simple BlackJack Game</h3>
+                <h3 class="text-uppercase">BlackJack Game</h3>
                 <span class="text-secondary">Python</span>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
-            <div class="our-project">
-              <div class="img">
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>Bank Management</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-                        <ul>
-                          <li>Simple console app</li>
-                          <li>Registration</li>
-                          <li>Deposit</li>
-                          <li>Withdraw</li>
-                          <li>Check Balance</li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a target="_blank" href="https:/www.github.com">github link</a>
-                    </div>
+            <!-- Modal Applying-->
+            <div class="modal fade" id="blackJack" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">BlackJack</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is just a simple console game. Just gaming steps are focused.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;">Live
+                        Preview</a></p>
                   </div>
                 </div>
-                <!--End of floating information for my project --->
+              </div>
+            </div>
+            <!-- Modal applying -->
 
+          </div>
+
+          <!--================= Simple Bank Management project ========================-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+            <div class="our-project" data-toggle="modal" data-target="#bankManagementCpp">
+              <div class="img">
                 <img src="./img/bank.jpg" alt="bank" width="100%">
               </div>
               <div class="title py-4">
-                <h3 class="text-uppercase">Simple Bank Management</h3>
+                <h3 class="text-uppercase">Bank Management</h3>
                 <span class="text-secondary">C++</span>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
-            <div class="our-project">
-              <div class="img">
-                <!---- floating information for my project ------>
-                <div class="floating-details">
-                  <div class="card">
-                    <div class="card-header">
-                      <h6>Machine Learning</h6>
-                    </div>
-                    <div class="card-body">
-                      <p class="para">
-                        Here are some of my machine learning work in github.
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <a target="_blank" href="https:/www.github.com">github link</a>
-                    </div>
+            <!-- Modal Applying-->
+            <div class="modal fade" id="bankManagementCpp" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Bank Management</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      Features:
+                      <ul>
+                        <li>Simple console app</li>
+                        <li>Registration</li>
+                        <li>Deposit</li>
+                        <li>Withdraw</li>
+                        <li>Check Balance</li>
+                      </ul>
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;">Live
+                        Preview</a></p>
                   </div>
                 </div>
-                <!--End of floating information for my project --->
+              </div>
+            </div>
+            <!-- Modal applying -->
 
+          </div>
+
+          <!--==================== Machine Learning Works ======================-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+            <div class="our-project" data-toggle="modal" data-target="#machineLearning">
+              <div class="img">
                 <img src="./img/machine.jpg" alt="machine" width="100%">
               </div>
               <div class="title py-4">
-                <h3 class="text-uppercase">My Machine Learning works</h3>
+                <h3 class="text-uppercase">Machine Learning</h3>
                 <span class="text-secondary">Python</span>
               </div>
             </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="machineLearning" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Machine Learning</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      Here are some of my machine learning work in github.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+
           </div>
+
+          <!--========== E-School website =============-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#eSchool">
+              <div class="img">
+                <img src="./img/e_school.png" alt="E-School" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">E-School website</h3>
+                <span class="text-secondary">HTML, CSS, Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="eSchool" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">E-School</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple responsive educational website.<br> Live preview available. For more see live
+                      preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/E-School/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--========== Leader Board website =============-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#leaderBoard">
+              <div class="img">
+                <img src="./img/leader_board.png" alt="Leader Board" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Leader Board</h3>
+                <span class="text-secondary">HTML, CSS, Bootstrap</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="leaderBoard" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Leader Board</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple responsive website.<br> Live preview available. For more see live
+                      preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/Leader_Board/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--=============== Binary Calculator=========-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item webdev">
+            <div class="our-project" data-toggle="modal" data-target="#binaryCalculator">
+              <div class="img">
+                <img src="./img/binary_calculator.png" alt="Binary Calculator" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Binary Calculator</h3>
+                <span class="text-secondary">JavaScript ,HTML, CSS</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="binaryCalculator" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Binary Calculator</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      This is a simple Binary Calculator. JavaScript functionalities are focused mainly. <br>
+                      Live preview
+                      available. For more see live preview.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;" target="_blank"
+                        href="https://jahedul29.github.io/JavaScript_Programming/Binary_Calculator/index.html">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+          </div>
+
+          <!--======================= Other Works ===================-->
+          <div class="col-lg-3 col-md-6 col-sm-12 element-item others">
+            <div class="our-project" data-toggle="modal" data-target="#otherWorks">
+              <div class="img">
+                <img src="./img/others.jpg" alt="others" width="100%">
+              </div>
+              <div class="title py-4">
+                <h3 class="text-uppercase">Other Works</h3>
+                <span class="text-secondary">C++, C#, Python</span>
+              </div>
+            </div>
+
+            <!-- Modal Applying-->
+            <div class="modal fade" id="otherWorks" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary" style="color: rgb(245, 226, 227);">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Other Works</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="para">
+                      Here are my other works.
+                    </p>
+                    <br>
+                    <p class="text-right"><a style="color: #27ae60;font-size: 20px;">Live
+                        Preview</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal applying -->
+
+          </div>
+
         </div>
       </div>
     </section>
