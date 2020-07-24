@@ -200,31 +200,19 @@ li.nav-item a:hover {
     padding: 2rem 2px;
 }
 
-/* floating details */
-.site-main .project-area .grid .our-project .floating-details {
-    visibility: hidden;
-    width: 14rem;
-    text-align: center;
-    padding: 2px;
-    position: absolute;
-    z-index: 1;
-    border: 1px solid rgba(12, 12, 12, 0.603);
-    border-radius: 15px;
+
+.site-main .project-area .button-group button:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.site-main .project-area .grid .our-project .floating-details .card-body {
-    padding: 5px !important;
-    text-align: justify;
-    background-color: #eedddd;
-}
-
-.site-main .project-area .grid .our-project .floating-details .card {
-    background-color: rgb(252, 249, 252);
-    border-radius: 15px !important;
-}
-
-.site-main .project-area .grid .our-project .img:hover .floating-details {
-    visibility: visible;
+.site-main .project-area .button-group button.active {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .site-main .project-area .grid .our-project>.title h3 {
